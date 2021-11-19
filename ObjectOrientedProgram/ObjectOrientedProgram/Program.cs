@@ -16,9 +16,14 @@ namespace ObjectOrientedProgram
                 {
                     case 1:
                         InventoryMain inv = new InventoryMain();
-                        inv.DisplayData(@"E:\GIT BL\ObjectOrientedProgramming\ObjectOrientedProgramming\ObjectOrientedProgram\ObjectOrientedProgram\Files\Inventory.json");
+                        inv.DisplayData(@"E:\GIT BL\ObjectOrientedProgramming\ObjectOrientedProgramming\ObjectOrientedProgram\ObjectOrientedProgram\InventoryMain.cs");
                         break;
                     case 2:
+                        InventoryMain inventory = new InventoryMain();
+                        inventory.DisplayData(@"CE:\GIT BL\ObjectOrientedProgramming\ObjectOrientedProgramming\ObjectOrientedProgram\ObjectOrientedProgram\Files1\InventoryFiles.json");
+                        inventory.DisplayData("Rice");
+                        break;
+                    case 3:
                         flag = false;
                         break;
                 }
